@@ -1,7 +1,8 @@
 :root {
   --primary-color: #1e1e1e;
   --secondary-color: #eae9eb;
-  --purple: #8159aa;
+  --purple: #6b4196;
+  --light-purple: #bf6dff;
 }
 
 .App {

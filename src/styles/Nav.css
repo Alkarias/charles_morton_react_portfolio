@@ -1,7 +1,17 @@
 div button {
     text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: large;
+    font-weight: 500;
 }
 
 div button:hover {
-    color: var(--purple);
+    color: var(--light-purple);
+}
+
+.focus {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-shadow: .0625rem .0625rem .3125rem var(--light-purple);
 }
