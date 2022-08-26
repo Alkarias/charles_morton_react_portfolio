@@ -1,6 +1,7 @@
 :root {
   --primary-color: #1e1e1e;
   --secondary-color: #eae9eb;
+  --tertiary-color: #d1d1d1;
   --purple: #6b4196;
   --light-purple: #bf6dff;
 }
@@ -13,12 +14,20 @@
   color: var(--primary-color);
 }
 
+.text-light-gray {
+  color: var(--tertiary-color);
+}
+
 .text-offWhite {
   color: var(--secondary-color);
 }
 
 .bg-dark-gray {
   background-color: var(--primary-color);
+}
+
+.bg-light-gray {
+  background-color: var(--tertiary-color);
 }
 
 .bg-offWhite {

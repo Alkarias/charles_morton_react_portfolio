@@ -33,7 +33,7 @@ function App() {
   }, [view]);
 
   return (
-    <div className="App h-100 bg-offWhite">
+    <div className="App h-100 bg-light-gray">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -43,10 +43,10 @@ function App() {
         <h1 className="font-oswald fw-600 pt-3 display-3">My Portfolio</h1>
         <Nav setView={setView}/>
       </header>
-      <div className="">
+      <div className="bg-light-gray">
         {showPage(view)}
       </div>
-      <footer className="fixed-bottom py-3 bg-dark-gray text-offWhite">
+      <footer className="mt-auto py-3 bg-dark-gray text-offWhite">
         These will be the icon links to the github and linkedIn
       </footer>
     </div>

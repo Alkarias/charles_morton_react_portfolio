@@ -8,10 +8,11 @@ div button {
 
 div button:hover {
     color: var(--light-purple);
+    cursor: pointer;
 }
 
 .focus {
     color: var(--primary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     text-shadow: .0625rem .0625rem .3125rem var(--light-purple);
 }
