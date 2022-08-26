@@ -6,7 +6,7 @@ export default function Contact() {
             <h4>Email:</h4>
             <input id="email" className="w-75"></input>
             <h4>Description</h4>
-            <input id="description" className="w-75"></input>
+            <textarea id="description" className="w-75"></textarea>
             <br/>
             <button id="send" className="btn btn-primary send mt-3">Send</button>
         </form>

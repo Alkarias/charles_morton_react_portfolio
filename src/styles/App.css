@@ -63,9 +63,10 @@
 }
 
 #description {
+  resize:none;
   height: 15rem;
 }
 
 .send {
-  margin-bottom: 14rem;
+  margin-bottom: 13.5625rem;
 }
