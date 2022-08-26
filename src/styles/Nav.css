@@ -1,0 +1,7 @@
+div button {
+    text-decoration: none;
+}
+
+div button:hover {
+    color: var(--purple);
+}
