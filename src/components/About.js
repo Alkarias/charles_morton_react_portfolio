@@ -1,5 +1,21 @@
+import React from "react";
+import profile from '../images/profile.jpg'
+
 export default function About() {
     return (
-        <div>This is the About me</div>
+        <React.Fragment>
+            <img className="d-inline-block col-6 m-3" src={profile} alt="Profile"/>
+            <span className="d-inline-block col-6 m-3 fw-500">
+                Hi! My Name is Charles Morton. I am from Charlotte, North Carolina. I am
+                currently 20 years old. I graduated from Ardrey Kell High School in 2020.
+                I am looking to begin my career in the Web Development field. Currently, I
+                am finishing up a coding bootcamp through Georgia Tech University, which
+                has been a joy to be apart of. I truly love writing code and watching my
+                ideas come to fruition. The opportunity to have fun and interesting problem
+                solving tasks is something that I find to be extremely rewarding. I hope
+                through this display of my projects to show some of the skills and mastery
+                I've developed up to this point.
+            </span>
+        </React.Fragment>
     )
 }

@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { Github, Linkedin } from 'react-bootstrap-icons';
 
 function showPage(view) {
   switch (view) {
@@ -43,11 +44,16 @@ function App() {
         <h1 className="font-oswald fw-600 pt-3 display-3">My Portfolio</h1>
         <Nav setView={setView}/>
       </header>
-      <div className="bg-light-gray">
+      <div className="container bg-light-gray">
         {showPage(view)}
       </div>
       <footer className="mt-auto py-3 bg-dark-gray text-offWhite">
-        These will be the icon links to the github and linkedIn
+        <a href="https://github.com/Alkarias" className="font-large">
+          <Github className="mx-2"size={48}/>
+        </a>
+        <a href="https://www.linkedin.com/in/charles-morton-a56a4b241/" className="LI">
+          <Linkedin className="mx-2" size={48}/>
+        </a>
       </footer>
     </div>
   );

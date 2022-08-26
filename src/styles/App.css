@@ -61,3 +61,11 @@
 .border-red {
   border: 5px solid red;
 }
+
+#description {
+  height: 15rem;
+}
+
+.send {
+  margin-bottom: 14rem;
+}
