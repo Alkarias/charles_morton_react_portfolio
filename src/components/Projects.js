@@ -2,6 +2,7 @@ import Application from './Application';
 import '../styles/Projects.css'
 import sadlibz from '../images/sadlibz.png';
 import wookiesGold from '../images/wookies-gold.jpg';
+import SUFFER from '../images/suffer.png';
 import comingSoon from '../images/coming-soon.jpg';
 import React from 'react';
 
@@ -30,12 +31,12 @@ export default function Projects() {
                 </div>
                 <div className="row">
                     <Application
-                    image={comingSoon}
-                    alt="Mern Application"
-                    github="TBD"
-                    deployed="TBD"
-                    name="TBD"
-                    caption="MERN App"
+                    image={SUFFER}
+                    alt="Suffer application home page"
+                    github="https://github.com/TeagrinForde/Suffer"
+                    deployed="https://suffer-game-gtbootcamp.herokuapp.com/"
+                    name="<SUFFER/>"
+                    caption="MERN Stack"
                     />
                     <Application
                     image={comingSoon}
