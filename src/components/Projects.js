@@ -16,7 +16,7 @@ export default function Projects() {
                     image={sadlibz}
                     alt="Sadlibz home page"
                     github="https://github.com/mike-gonz0/sadLibs"
-                    deployed="https://mike-gonz0.github.io/sadLibs/"
+                    deployed="https://mgdevelops2.github.io/SadLib-Adlib-Generator/"
                     name="Sadlibz"
                     caption="Front-End App"
                     />
