@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/charles_morton_react_portfolio/static/css/main.9133c513.css",
-    "main.js": "/charles_morton_react_portfolio/static/js/main.c7ccfae9.js",
+    "main.js": "/charles_morton_react_portfolio/static/js/main.df69a41a.js",
     "static/js/787.1ed0c42c.chunk.js": "/charles_morton_react_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.jpg": "/charles_morton_react_portfolio/static/media/profile.80357133df9f65752d55.jpg",
     "static/media/wookies-gold.jpg": "/charles_morton_react_portfolio/static/media/wookies-gold.45a0aedb7a839ed57d01.jpg",
+    "static/media/suffer.png": "/charles_morton_react_portfolio/static/media/suffer.c22b21feac15666df284.png",
     "static/media/sadlibz.png": "/charles_morton_react_portfolio/static/media/sadlibz.9576837e3b85a8b6e533.png",
     "static/media/coming-soon.jpg": "/charles_morton_react_portfolio/static/media/coming-soon.fd02409a2d85c7d72773.jpg",
     "index.html": "/charles_morton_react_portfolio/index.html",
     "main.9133c513.css.map": "/charles_morton_react_portfolio/static/css/main.9133c513.css.map",
-    "main.c7ccfae9.js.map": "/charles_morton_react_portfolio/static/js/main.c7ccfae9.js.map",
+    "main.df69a41a.js.map": "/charles_morton_react_portfolio/static/js/main.df69a41a.js.map",
     "787.1ed0c42c.chunk.js.map": "/charles_morton_react_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9133c513.css",
-    "static/js/main.c7ccfae9.js"
+    "static/js/main.df69a41a.js"
   ]
 }
